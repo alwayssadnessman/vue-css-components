@@ -13,18 +13,24 @@
     "element-plus": "^1.0.2-beta.28",
     "vue": "^3.0.0",
     "vue-axios": "^3.2.2",
+    "vue-class-component": "^8.0.0-0",
     "vue-router": "^4.0.0-0"
   },
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.33.0",
+    "@typescript-eslint/parser": "^2.33.0",
     "@vue/cli-plugin-babel": "~4.5.0",
     "@vue/cli-plugin-eslint": "~4.5.0",
     "@vue/cli-plugin-router": "^4.5.11",
+    "@vue/cli-plugin-typescript": "^4.5.11",
     "@vue/cli-service": "~4.5.0",
     "@vue/compiler-sfc": "^3.0.0",
+    "@vue/eslint-config-typescript": "^5.0.2",
     "axios": "^0.20.0",
     "babel-eslint": "^10.1.0",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^7.0.0-0",
+    "typescript": "~3.9.3",
     "vue-cli-plugin-axios": "0.0.4"
   },
   "eslintConfig": {
@@ -34,10 +40,11 @@
     },
     "extends": [
       "plugin:vue/vue3-essential",
-      "eslint:recommended"
+      "eslint:recommended",
+      "@vue/typescript"
     ],
     "parserOptions": {
-      "parser": "babel-eslint"
+      "parser": "@typescript-eslint/parser"
     },
     "rules": {
       "generator-star-spacing": "off",

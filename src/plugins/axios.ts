@@ -39,9 +39,9 @@ _axios.interceptors.response.use(
   }
 );
 
-Plugin.install = function(createApp, options) {
+(Plugin as any).install = function(createApp:any, options:any) {
   createApp.axios = _axios;
-  window.axios = _axios;
+  (window as any).axios = _axios;
   Object.defineProperties(createApp.prototype, {
     axios: {
       get() {

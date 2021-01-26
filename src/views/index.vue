@@ -15,7 +15,7 @@
         [x:string]:string
       }
       abc = reactive({
-          name:"王男",
+          name:"阿男",
           statu:"wang"
       });
       const changeName = ()=>{

@@ -9,9 +9,12 @@
   import {onMounted,watch,getCurrentInstance,ref,reactive} from 'vue'
   export default{
     name:'app',
-    setup(props,context){
-      const internalInstance = getCurrentInstance()
-      let abc:object = reactive({
+    setup(props:any,context:any){
+      const internalInstance = getCurrentInstance();
+      let abc:{
+        [x:string]:string
+      }
+      abc = reactive({
           name:"王男",
           statu:"wang"
       });
@@ -19,9 +22,22 @@
          abc.name = "刘岑"
       }
       onMounted(()=>{  //挂载前执行
-        console.log(123)
+          enum Gender{
+            male,
+            female
+          }
+          let i :{type:Gender}
+          i = {
+            type:Gender.male
+          }
+          console.log(i);
+          
+          
+          
+          
+          
       })
-      watch(()=> abc.name,(newValue,oldValue)=>{
+      watch(()=> {return abc.name},(newValue,oldValue)=>{
           abc.statu = newValue+"sb"
       })
       return{

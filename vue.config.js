@@ -14,7 +14,7 @@ module.exports = {
         port: "80",
         hot: true,
         /* 自动打开浏览器 */
-        open: false,
+        open: true,
         overlay: {
             warning: false,
             error: true
@@ -23,7 +23,7 @@ module.exports = {
         proxy: {
             "/api": {
                 /* 目标代理服务器地址 */
-                target: "http://192.168.78.158:3000", //
+                target: "http://10.179.125.161:3000", //
                 /* 允许跨域 */
                 changeOrigin: true,
                 ws: true,

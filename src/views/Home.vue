@@ -1,7 +1,6 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <Index msg="hello" />
+    <Index msg="hello"></Index>
   </div>
 </template>
 

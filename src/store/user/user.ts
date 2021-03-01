@@ -1,9 +1,12 @@
+interface stateRules{
+    username:string
+}
 export default {
     state:{
         username:"刘岑1"
     },
     mutations:{
-        changeUserName(state:any,payload:string){
+        changeUserName(state:stateRules,payload:string){
             state.username = payload
         }
     },
@@ -13,6 +16,6 @@ export default {
         }
     },
     getters:{
-        username:state=> state.username + "222"
+        username:(state:stateRules)=> state.username + "222"
     }
 }

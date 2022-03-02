@@ -8,16 +8,24 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "@antv/x6": "^1.28.1",
     "axios": "^0.20.0",
     "core-js": "^3.6.5",
+    "echarts": "^5.2.2",
     "element-plus": "^1.0.2-beta.28",
+    "flv.js": "^1.6.2",
+    "hls.js": "^1.1.5",
+    "videojs-contrib-hls": "^5.15.0",
+    "videojs-flash": "^2.2.1",
     "vue": "^3.0.0",
     "vue-axios": "^3.2.2",
     "vue-class-component": "^8.0.0-0",
     "vue-router": "^4.0.0-0",
+    "vue-video-player": "^5.0.2",
     "vuex": "^4.0.0-0"
   },
   "devDependencies": {
+    "@types/resize-observer-browser": "^0.1.6",
     "@typescript-eslint/eslint-plugin": "^2.33.0",
     "@typescript-eslint/parser": "^2.33.0",
     "@vue/cli-plugin-babel": "~4.5.0",
@@ -33,6 +41,7 @@
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^7.0.0-0",
     "typescript": "~3.9.3",
+    "video.js": "^7.17.0",
     "vue-cli-plugin-axios": "0.0.4"
   },
   "eslintConfig": {

@@ -1,0 +1,31 @@
+<svg id="组_1_拷贝" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2008" height="4304" viewBox="0 0 2008 4304">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        fill-rule: evenodd;
+      }
+
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-3 {
+        fill: url(#linear-gradient-3);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="1812" y1="2147" x2="210" y2="2147" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#363636"/>
+      <stop offset="0.5" stop-color="#fff"/>
+      <stop offset="1" stop-color="#363636"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="2000" y1="400" x2="10" y2="400" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-3" x1="2000" y1="3898" x2="10" y2="3898" xlink:href="#linear-gradient"/>
+  </defs>
+  <path id="矩形_2"  class="cls-1" d="M210,766H1812V3528H210V766h0Z"/>
+  <path id="矩形_1"  class="cls-2" d="M10,32H2000V768H10V32h0Z"/>
+  <path id="矩形_1_拷贝" class="cls-3" d="M10,3530H2000v736H10V3530h0Z"/>
+</svg>
